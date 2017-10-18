@@ -46,7 +46,7 @@ defmodule IntToWords do
   defp say_with_sex(2, :male), do: "два"
   defp say_with_sex(2, :female), do: "две"
   # 0, 3-19
-  defp say_num(0), do: "ноль"
+  defp say_num(0), do: "нуль"
   defp say_num(3), do: "три"
   defp say_num(4), do: "четыре"
   defp say_num(5), do: "пять"
